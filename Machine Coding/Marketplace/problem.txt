@@ -1,0 +1,19 @@
+Design an online marketplace described as below
+
+In marketplace we can add products which have some number of tags
+Search for products
+Sell products
+
+
+Add Products ( string name, vector<string> tags, int price)
+	Add a new product to the marketplace
+
+getProducts (bool sold) 
+	If sold is true return all products that are sold till now
+	If sold  is false then return all unsold products
+Search by tag (string Tag)
+	Return list of products which has “Tag” as one of its tag.
+
+Buy (vector<string> tags) 
+	Size of tags is fixed and is 3
+	Return Cheapest product containing all 3 tags and this product is sold
